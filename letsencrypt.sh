@@ -10,7 +10,7 @@ cd /usr/src/fusionpbx-install.sh/debian/resources
 . ./config.sh
 
 #Add dependencies
-apt-get install -y curl
+apt-get install -y curl jq
 
 #remove dehyrdated letsencrypt script
 rm /usr/local/sbin/dehydrated
