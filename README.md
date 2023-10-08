@@ -44,6 +44,7 @@ D.Create symbolic link in /etc/cron.monthly/
 This step is important so that the script runs monthly.
 
 cd /etc/cron.monthly
+
 ln -s /usr/src/fusionpbx-install.sh/debian/resources/letsencrypt.sh letsencrypt
 
 
