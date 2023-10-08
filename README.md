@@ -25,7 +25,7 @@ More info regarding PowerDNS API:  https://doc.powerdns.com/authoritative/http-a
 
 3- Fusion has a script that issues LetsEncrypt SSL and TLS certificates for wildcard domains. However, it is a manual process where an interaction with the Name Server DNS must occur, introducing a TXT entry with a predetermined value in the challenge process. The process must be carried out manually every 3 months. The management of this is not that good.
 
-4-This procedure takes into account that PowerDNS is used with Fusion domain name resolution DNS. But it can be used for other solutions that provide an API. Just adapt the script to the environment.
+4-This procedure takes into account that PowerDNS is used with Fusion domain name resolution DNS. But it can be used for other DNS name server solutions that exposes an API. Just adapt the script to the environment.
 
 ## STEPS:
 
