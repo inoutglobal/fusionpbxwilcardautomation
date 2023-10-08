@@ -31,11 +31,15 @@ More info regarding PowerDNS API:  https://doc.powerdns.com/authoritative/http-a
 
 ## A. Customize letsencrypt.sh in the /usr/src/fusionpbx-install.sh/debian/resources directory
 
+Backup original letsencrypt script on /usr/src/fusionpbx-install.sh/debian/resources directory
+
 Copy letsencrypt.sh to /usr/src/fusionpbx-install.sh/debian/resources folder
 
 Set domain and email up on letsencrypt.sh
 
 ## B. Customize Hook hook.sh in the /etc/dehydrated directory
+
+Backup original lhook script on /etc/dehydrated directory
 
 Copy hook.sh to /etc/dehydrated folder
 
