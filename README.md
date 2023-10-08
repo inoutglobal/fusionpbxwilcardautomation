@@ -33,11 +33,15 @@ More info regarding PowerDNS API:  https://doc.powerdns.com/authoritative/http-a
 
 ## A. Customize letsencrypt.sh in the /usr/src/fusionpbx-install.sh/debian/resources directory
 
+Copy letsencrypt.sh to /usr/src/fusionpbx-install.sh/debian/resources folder
+
 Set domain and email up on letsencrypt.sh
 
 ## B. Customize Hook hook.sh in the /etc/dehydrated directory
 
-Set _acme-challenge, DNS IP and API Key uo on hook.sh
+Copy hook.sh to /etc/dehydrated folder
+
+Set _acme-challenge, DNS IP and API Key up on hook.sh
 
 ## C. Run the script manually to check if the process is occurring correctly and automatically.
 
