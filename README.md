@@ -17,9 +17,7 @@ The LetsEncrypt SSL certification process requires a challenge step between Lets
 
 > PowerDNS 4.2 with API activated, access key, firewall enabled for port 8081.
 
-> Install curl and jq applications >> apt install curl jq -y
-
-https://doc.powerdns.com/authoritative/http-api/index.html
+More info regarding PowerDNS API:  https://doc.powerdns.com/authoritative/http-api/index.html
 
 
 
