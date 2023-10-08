@@ -4,8 +4,8 @@ It automates LetsEncrypt WildCard Certification Emission for FusionPBX
 Environment and requirements:
 
 FusionPBX 5.1
->PowerDNS 4.2 with API activated, access key, firewall enabled for port 8081.
->Install curl and jq applications >> apt install curl jq
+PowerDNS 4.2 with API activated, access key, firewall enabled for port 8081.
+Install curl and jq applications >> apt install curl jq
 https://doc.powerdns.com/authoritative/http-api/index.html
 
 The LetsEncrypt SSL certification process requires a challenge step between LetsEncrypt and the wildcard domain's DNS to be validated.
