@@ -1,5 +1,3 @@
-# fusionpbxwilcardautomation
-
 ## It automates LetsEncrypt WildCard Certification Emission for FusionPBX
 
 ![image](https://github.com/inoutglobal/fusionpbxwilcardautomation/assets/47820627/91823d63-17d3-42ac-bdb9-28cb5a48f9c5)
