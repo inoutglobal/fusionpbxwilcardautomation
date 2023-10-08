@@ -6,6 +6,7 @@
 
 ![image](https://github.com/inoutglobal/fusionpbxwilcardautomation/assets/47820627/3b944639-a2c0-4b42-a762-81f072b04801)
 
+![image](https://github.com/inoutglobal/fusionpbxwilcardautomation/assets/47820627/86dd880f-59ed-4f6b-82b3-393a6d3739ef)
 
 
 The LetsEncrypt SSL certification process requires a challenge step between LetsEncrypt and the wildcard domain's DNS to be propperly validated.
@@ -34,11 +35,15 @@ https://doc.powerdns.com/authoritative/http-api/index.html
 
 ## A. Customize letsencrypt.sh in the /usr/src/fusionpbx-install.sh/debian/resources directory
 
+Set domain and email up on letsencrypt.sh
+
 ## B. Customize Hook hook.sh in the /etc/dehydrated directory
+
+Set _acme-challenge, DNS IP and API Key uo on hook.sh
 
 ## C. Run the script manually to check if the process is occurring correctly and automatically.
 
-./letsencrypt.sh
+./usr/src/fusionpbx-install.sh/debian/resources/letsencrypt.sh
 
 ## D.Create symbolic link in /etc/cron.monthly/
 
