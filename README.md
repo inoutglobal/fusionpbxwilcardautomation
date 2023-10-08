@@ -43,7 +43,7 @@ Backup original lhook script on /etc/dehydrated directory
 
 Copy hook.sh to /etc/dehydrated folder
 
-Set _acme-challenge, DNS IP and API Key up on hook.sh
+Set _acme-challenge,zone, DNS IP and API Key up on hook.sh
 
 ## C. Run the script manually to check if the process is occurring correctly and automatically.
 
