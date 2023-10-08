@@ -41,14 +41,17 @@ Set _acme-challenge, DNS IP and API Key uo on hook.sh
 
 ## C. Run the script manually to check if the process is occurring correctly and automatically.
 
+```sh
 ./usr/src/fusionpbx-install.sh/debian/resources/letsencrypt.sh
+```
 
-## D.Create symbolic link in /etc/cron.monthly/
+## D. Create symbolic link in /etc/cron.monthly/
 
 This step is important so that the script runs monthly.
 
+```sh
 cd /etc/cron.monthly
 
 ln -s /usr/src/fusionpbx-install.sh/debian/resources/letsencrypt.sh letsencrypt
-
+```
 
