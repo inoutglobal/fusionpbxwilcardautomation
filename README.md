@@ -1,5 +1,6 @@
 # fusionpbxwilcardautomation
-It automates LetsEncrypt WildCard Certification Emission for FusionPBX
+
+## It automates LetsEncrypt WildCard Certification Emission for FusionPBX
 
 ![image](https://github.com/inoutglobal/fusionpbxwilcardautomation/assets/47820627/91823d63-17d3-42ac-bdb9-28cb5a48f9c5)
 
@@ -31,15 +32,15 @@ https://doc.powerdns.com/authoritative/http-api/index.html
 
 STEPS:
 
-#A. Customize letsencrypt.sh in the /usr/src/fusionpbx-install.sh/debian/resources directory
+## A. Customize letsencrypt.sh in the /usr/src/fusionpbx-install.sh/debian/resources directory
 
-#B. Customize Hook hook.sh in the /etc/dehydrated directory
+## B. Customize Hook hook.sh in the /etc/dehydrated directory
 
-#C. Run the script manually to check if the process is occurring correctly and automatically.
+## C. Run the script manually to check if the process is occurring correctly and automatically.
 
 ./letsencrypt.sh
 
-#D.Create symbolic link in /etc/cron.monthly/
+## D.Create symbolic link in /etc/cron.monthly/
 
 This step is important so that the script runs monthly.
 
