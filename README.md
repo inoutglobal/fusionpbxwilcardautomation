@@ -1,14 +1,25 @@
 # fusionpbxwilcardautomation
 It automates LetsEncrypt WildCard Certification Emission for FusionPBX
 
+![image](https://github.com/inoutglobal/fusionpbxwilcardautomation/assets/47820627/91823d63-17d3-42ac-bdb9-28cb5a48f9c5)
+
+![image](https://github.com/inoutglobal/fusionpbxwilcardautomation/assets/47820627/3b944639-a2c0-4b42-a762-81f072b04801)
+
+
+
+The LetsEncrypt SSL certification process requires a challenge step between LetsEncrypt and the wildcard domain's DNS to be propperly validated.
+
 Environment and requirements:
 
 FusionPBX 5.1
+
 PowerDNS 4.2 with API activated, access key, firewall enabled for port 8081.
+
 Install curl and jq applications >> apt install curl jq
+
 https://doc.powerdns.com/authoritative/http-api/index.html
 
-The LetsEncrypt SSL certification process requires a challenge step between LetsEncrypt and the wildcard domain's DNS to be validated.
+
 
 1-SSL and TLS certificates are necessary for two applications, NGINX and Freeswitch. Wildcard certificate valid for one year can cost an average of US200!
 
