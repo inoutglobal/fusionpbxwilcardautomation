@@ -10,13 +10,13 @@
 
 The LetsEncrypt SSL certification process requires a challenge step between LetsEncrypt and the wildcard domain's DNS to be propperly validated.
 
-Environment and requirements:
+## Environment and requirements:
 
-FusionPBX 5.1
+> FusionPBX 5.1
 
-PowerDNS 4.2 with API activated, access key, firewall enabled for port 8081.
+> PowerDNS 4.2 with API activated, access key, firewall enabled for port 8081.
 
-Install curl and jq applications >> apt install curl jq
+> Install curl and jq applications >> apt install curl jq -y
 
 https://doc.powerdns.com/authoritative/http-api/index.html
 
@@ -30,7 +30,7 @@ https://doc.powerdns.com/authoritative/http-api/index.html
 
 4-This procedure takes into account that PowerDNS is used with Fusion domain name resolution DNS. But it can be used for other solutions that provide an API. Just adapt the script to the environment.
 
-STEPS:
+## STEPS:
 
 ## A. Customize letsencrypt.sh in the /usr/src/fusionpbx-install.sh/debian/resources directory
 
